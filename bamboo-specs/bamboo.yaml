@@ -15,9 +15,6 @@ Build:
         - mkdir -p falcon/red
         - echo wings > falcon/red/wings
         - echo 'Built it'
-    - test-parser:
-        type: junit
-        test-results: '**/junit/*.xml'
   requirements:
      - isRocketFuel
   artifacts:
